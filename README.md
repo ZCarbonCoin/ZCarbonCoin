@@ -1,8 +1,12 @@
-# Zclassic
+=======
+#ZCarbonCoin v0.0.1
 
-What is Zclassic?
+NOTICE, the default ports have changed! The p2p port is now 8037 and rpcport is 8023
+
+What is ZCarbonCoin?
 ----------------
-Zclassic is a cryptocurrency with a focus on privacy. It uses the same initial ceremony parameters generated for [Zcash](https://github.com/zcash/zcash), as well as ZK-SNARKs for transaction shielding. The major change - there is no 20% [founders' fee](https://blog.z.cash/funding/) taken for mining each block.
+=======
+ZCarbonCoin is based on [ZClassic] (https://github.com/z-classic/zclassic/) / [ZCash] ( https://github.com/zcash/zcash/), which are based on BitCoin.
 
 More technical details are available
 in the [Zcash Protocol Specification](https://github.com/zcash/zips/raw/master/protocol/protocol.pdf).
@@ -135,13 +139,31 @@ Install
 ./src/zcashd
 ```
 
+=======
+About
+--------------
+
+ZCarbonCoin like [Zclassic](http://zclassic.org/), like [Zcash](https://z.cash/), is an implementation of the "Zerocash" protocol.
+Based on Bitcoin's code, it intends to offer a far higher standard of privacy
+through a sophisticated zero-knowledge proving scheme that preserves
+confidentiality of transaction metadata. Technical details are available
+in the Zcash [Protocol Specification](https://github.com/zcash/zips/raw/master/protocol/protocol.pdf).
+
+This software is the Zclassic client. It downloads and stores the entire history
+of Zclassic transactions; depending on the speed of your computer and network
+connection, the synchronization process could take a day or more once the
+blockchain has reached a significant size.
+
 Security Warnings
 -----------------
 
 See important security warnings in
 [doc/security-warnings.md](doc/security-warnings.md).
 
+<<<<<<< 16785aee867913b817cef73f720b0b78714b2e7b
 Zclassic and Zcash are **unfinished** and **highly experimental**. Use at your own risk.
+=======
+**ZCarbonCoin, like Zclassic and Zcash are unfinished and highly experimental.** Use at your own risk.
 
 Deprecation Policy
 ------------------
