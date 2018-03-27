@@ -1,7 +1,7 @@
 =======
 #ZCarbonCoin v0.0.1
 
-NOTICE, the default ports have changed! The p2p port is now 8037 and rpcport is 8023
+NOTICE, the default ports have changed! The p2p port is now 8037 and rpcport is 8027
 
 What is ZCarbonCoin?
 ----------------
@@ -11,14 +11,14 @@ ZCarbonCoin is based on [ZClassic] (https://github.com/z-classic/zclassic/) / [Z
 More technical details are available
 in the [Zcash Protocol Specification](https://github.com/zcash/zips/raw/master/protocol/protocol.pdf).
 
-This software is the Zclassic client. It downloads and stores the entire history
-of Zclassic transactions; depending on the speed of your computer and network
+This software is the ZCarbonCoin client. It downloads and stores the entire history
+of ZCarbonCoin transactions; depending on the speed of your computer and network7
 connection, the synchronization process could take a day or more once the
 blockchain has reached a significant size.
 
 Two main files of interest in this repo are `zcashd` and `zcash-cli`, which should be renamed to `zcld` and `zcl-cli` for use in the full-node wallet. The project needs to be built (per the instructions) in order to generate them.
 
-**P2P Port -** 8033  
+**P2P Port -** 8037  
 **RPC Port -** 8023
 
 **Documentation is at the [Zclassic wiki](https://github.com/z-classic/zclassic/wiki)**
@@ -26,9 +26,9 @@ Two main files of interest in this repo are `zcashd` and `zcash-cli`, which shou
 **View unsolved problems on the [issue tracker](https://github.com/z-classic/zclassic/wiki)**
 
 **Join the conversation on Discord:
-https://discord.gg/NyPnDJS**
+https://discord.gg/ykkKhUc**
 
-Participation in the Zclassic project is subject to a
+Participation in the ZCarbonCoin project is subject to a
 [Code of Conduct](code_of_conduct.md). This is based on the original Zcash Code of Conduct.
 
 Build and Installation
@@ -37,6 +37,7 @@ Build and Installation
 
 Get dependencies
 ```{r, engine='bash'}
+sudo apt-get update
 sudo apt-get install \
       build-essential pkg-config libc6-dev m4 g++-multilib \
       autoconf libtool ncurses-dev unzip git python \
@@ -149,8 +150,8 @@ through a sophisticated zero-knowledge proving scheme that preserves
 confidentiality of transaction metadata. Technical details are available
 in the Zcash [Protocol Specification](https://github.com/zcash/zips/raw/master/protocol/protocol.pdf).
 
-This software is the Zclassic client. It downloads and stores the entire history
-of Zclassic transactions; depending on the speed of your computer and network
+This software is the ZCarbonCoin client. It downloads and stores the entire history
+of ZCarbonCoin transactions; depending on the speed of your computer and network
 connection, the synchronization process could take a day or more once the
 blockchain has reached a significant size.
 
@@ -161,7 +162,7 @@ See important security warnings in
 [doc/security-warnings.md](doc/security-warnings.md).
 
 <<<<<<< 16785aee867913b817cef73f720b0b78714b2e7b
-Zclassic and Zcash are **unfinished** and **highly experimental**. Use at your own risk.
+ZCarbonCoin and Zclassic and Zcash are **unfinished** and **highly experimental**. Use at your own risk.
 =======
 **ZCarbonCoin, like Zclassic and Zcash are unfinished and highly experimental.** Use at your own risk.
 
