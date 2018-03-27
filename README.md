@@ -12,7 +12,7 @@ More technical details are available
 in the [Zcash Protocol Specification](https://github.com/zcash/zips/raw/master/protocol/protocol.pdf).
 
 This software is the ZCarbonCoin client. It downloads and stores the entire history
-of ZCarbonCoin transactions; depending on the speed of your computer and network7
+of ZCarbonCoin transactions; depending on the speed of your computer and network
 connection, the synchronization process could take a day or more once the
 blockchain has reached a significant size.
 
